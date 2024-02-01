@@ -89,6 +89,7 @@ print(f'Years Left: {yearsLeft}, Months Left: {monthLeft}, Weeks Left: {weekLeft
 '''
 
 ## Tip Calculator
+'''
 print('WELCOME TO THE TIP CALCULATOR:')
 totalBill = float(input('Enter the Total Amount \n'))
 percent = float(input('Enter the Percentage for tip: 10, 12 or 15 \n'))
@@ -109,5 +110,5 @@ elif percent == 15:
     # print('Each person should pay:'+ str(split))
 finalAmount = round(split, 2)
 print(f'Each person should pay :{finalAmount}')
-
+'''
 
